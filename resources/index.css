@@ -30,9 +30,11 @@ p {
 }
 
 .header a {
+    color: inherit;
+    text-decoration: underline;
     display: block;
     line-height:30px;
-    color: white;
+
 }
 
 .midbanner {
@@ -45,10 +47,16 @@ p {
 .footer {
   background-color: dimgray;
   text-align: left;
+  color: white;
 }
 
 .footer a {
   font-size: 11px;
-  color: white;
   background-color: dimgray;
+  color: inherit;
+  text-decoration: underline;
+}
+
+#exception {
+  text-decoration: none;
 }
